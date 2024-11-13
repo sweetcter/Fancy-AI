@@ -7,7 +7,6 @@ const CheckLoggedProvider = ({ children }: { children: React.ReactNode }) => {
   const authenicate = useTypedSelector(
     (state) => state.authReducer.authenicate
   );
-
   const { ToastController } = useToastController();
 
   if (authenicate) {

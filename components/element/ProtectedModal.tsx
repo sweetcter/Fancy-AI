@@ -47,10 +47,10 @@ export default function AuthProtectedModal() {
                   Sign in
                 </Text>
               </TouchableOpacity>
-              <Text className="text-center my-1">Or</Text>
+              <Text className="text-center text-lg font-medium my-1">Or</Text>
               <TouchableOpacity
                 activeOpacity={0.6}
-                className="bg-white h-[40px] w-full flex flex-row border-[1px] border-[#00403E] items-center mt-4 justify-center rounded-md "
+                className="bg-white h-[40px] w-full flex flex-row border-[1px] border-[#00403E] items-center justify-center rounded-md "
               >
                 <GoogleIcon />
                 <Text className="text-black font-medium text-base ml-3">

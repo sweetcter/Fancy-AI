@@ -40,6 +40,6 @@
       "typedRoutes": true
     },
     "jsEngine": "hermes",
-    "newArchEnabled": true
+    "development": true
   }
 }

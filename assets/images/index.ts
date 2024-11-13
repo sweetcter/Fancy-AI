@@ -18,6 +18,16 @@ const images = {
   maleIcon: require("./male_icon.png"),
   femaleIcon: require("./female_icon.png"),
   startScreen: require("./startSrceen.png"),
+  startImage:require("./startGirl.png"),
+  startImageOne: require("./sexyGirl1.png"),
+  startImageTwo: require("./sexyGirl2.png"),
+  startImageThree: require("./sexyGirl3.png"),
+  startImageFour: require("./sexyGirl4.png"),
+  startImageFive: require("./sexyGirl5.png"),
+  startImageSix: require("./sexyGirl6.png"),
+  // startImageSeven: require("./sexyGirl7.png"),
+  // startImageEight: require("./sexyGirl8.png"),
+  // startImageNine: require("./sexyGirl9.png"),
 };
 
 export default images;

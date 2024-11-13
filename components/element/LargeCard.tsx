@@ -34,7 +34,7 @@ const LargeCard = memo(
               source={item.url}
               className="rounded-xl overflow-hidden"
               style={{
-                width: width * 0.8,
+                width: width * 0.82,
                 height: height * 0.6,
               }}
               resizeMode="cover"

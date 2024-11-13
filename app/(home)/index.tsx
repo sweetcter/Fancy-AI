@@ -171,7 +171,7 @@ export default function HomeScreen() {
             </Text>
           </Link>
           <TouchableOpacity
-            hitSlop={{ top: 10, bottom: 10, left: 10, right: 10 }}
+            hitSlop={20}
             activeOpacity={0.7}
             onPress={() => handlerProtected("/(home)/protected/profile")}
             className="flex bg-[#1565C0] flex-row px-2 py-2 justify-center rounded-xl items-center"
