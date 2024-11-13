@@ -24,13 +24,13 @@ const CustomShadow = ({
       distance={distance}
       offset={offset}
       corners={{
-        topStart: false,
+        topStart: true,
         bottomStart: true,
         bottomEnd: true,
         topEnd: true,
       }}
-      startColor="#00000030" 
-      endColor="#00000000" 
+      startColor="#00000035" 
+      endColor="#00000000"
       sides={{ start: true, end: true, bottom: true, top: true }}
       style={{
         borderRadius: radius,

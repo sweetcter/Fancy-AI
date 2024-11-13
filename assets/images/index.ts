@@ -1,5 +1,7 @@
 const images = {
   pilot: require("./pilot.png"),
+  karina: require("./karina.webp"),
+  karinaSmile: require("./karinaSmile.webp"),
   missGrandVn: require("./missGrandVn.png"),
   missGrandTL: require("./missGrandTL.png"),
   y2k: require("./y2k.png"),
@@ -15,6 +17,7 @@ const images = {
   changePasswordBg: require("./changePasswordBg.png"),
   maleIcon: require("./male_icon.png"),
   femaleIcon: require("./female_icon.png"),
+  startScreen: require("./startSrceen.png"),
 };
 
 export default images;

@@ -36,7 +36,7 @@ export default function ProviderContent({
     <SafeAreaProvider>
       <ImageBackground
         style={styleImageBg}
-        className="h-full w-full relative -z-[10]"
+        className="flex-1 relative -z-[10]"
         resizeMode={resizeBgImage}
         source={backgroundImage}
       >

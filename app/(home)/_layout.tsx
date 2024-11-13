@@ -1,16 +1,18 @@
-import CustomHeader from "@/components/CustomHeader";
+import ProtectedProvider from "@/components/common/ProtectedProvider";
+import AuthProtectedModal from "@/components/element/ProtectedModal";
+import { publicRoutes } from "@/constants/router";
 import { Stack } from "expo-router";
 import React from "react";
 
 export default function _layout() {
   return (
-    <>
+    <ProtectedProvider>
+      <AuthProtectedModal />
       <Stack
-        initialRouteName="profile"
         screenOptions={{
           headerShown: false,
           animation: "ios",
-          animationDuration: 600,
+          animationDuration: 300,
         }}
       >
         <Stack.Screen
@@ -20,12 +22,12 @@ export default function _layout() {
           }}
         />
         <Stack.Screen
-          name="profile"
+          name={publicRoutes.profile}
           options={{
             headerShown: false,
           }}
         />
       </Stack>
-    </>
+    </ProtectedProvider>
   );
 }

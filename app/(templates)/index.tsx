@@ -1,21 +1,19 @@
 import images from "@/assets/images";
 import ProviderContent from "@/components/ProviderContent";
-import {
-  Dimensions,
-  Text,
-  View,
-  StyleSheet,
-  Image,
-  TouchableOpacity,
-} from "react-native";
-import AntDesign from "@expo/vector-icons/AntDesign";
-import Ionicons from "@expo/vector-icons/Ionicons";
-import Feather from "@expo/vector-icons/Feather";
 import { styles } from "@/styles/swap";
+import AntDesign from "@expo/vector-icons/AntDesign";
+import Feather from "@expo/vector-icons/Feather";
+import Ionicons from "@expo/vector-icons/Ionicons";
+import {
+  Image,
+  Text,
+  TouchableOpacity,
+  View
+} from "react-native";
 
 const index = () => {
   return (
-    <ProviderContent backgroundImage={images.regularBg} viewScroll="flatlist">
+    <ProviderContent backgroundImage={images.regularBg} resizeBgImage="cover" viewScroll="flatlist">
       <View className={`mt-[50%]`}>
         <View className="flex flex-row justify-center gap-3 items-center mb-[214px]">
           <View
